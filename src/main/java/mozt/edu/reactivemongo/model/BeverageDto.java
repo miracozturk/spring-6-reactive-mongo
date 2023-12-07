@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Builder
 public class BeverageDto {
-    private Integer id;
+    private String id;
     @NotNull
     @Size(min = 3, max = 255)
     private String beverageName;
